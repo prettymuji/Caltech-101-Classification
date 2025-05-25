@@ -38,4 +38,4 @@
 ## 模型权重下载
 - 预训练最优模型参数在 `best_params.pth` 中, 运行 `test_resnet18.py` 即可加载该模型并输出在测试集上的准确率；
 - 随机初始化最优模型参数在 `random_best_params.pth` 中, 运行 `test_resnet18.py -p random` 即可加载该模型并输出在测试集上的准确率；
-- 参数查找环节的所有参数位于 http://dsw-gateway.cfff.fudan.edu.cn:32080/dsw-15320/lab/tree/zl_dl/hw2-1/params_new ，可以直接下载整个文件夹于当前目录，运行`utils.hyper_search()`函数即可依次输出所有超参数组合训练好的模型在测试集上的准确率、最佳准确率对应的超参数组合，相应的结果会储存在'hyper_search.csv'文件中。
+- 参数查找环节的所有参数位于 http://dsw-gateway.cfff.fudan.edu.cn:32080/dsw-15320/lab/tree/zl_dl/hw2-1/params_new ，可以直接下载整个文件夹于当前目录，运行`utils.hyper_search()`函数即可依次输出所有超参数组合训练好的模型在测试集上的准确率、最佳准确率对应的超参数组合。
